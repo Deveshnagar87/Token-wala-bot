@@ -128,7 +128,7 @@ async def start_command(client: Client, message: Message):
                     pass
 
             SD = await message.reply_text("Hello {mention} Join @adult_04verse")
-            await asyncio.sleep(False)
+            await asyncio.sleep(None)
 
             for snt_msg in snt_msgs:
                 try:
