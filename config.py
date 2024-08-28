@@ -30,8 +30,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "akash317689")
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "86341de5e2f5f4ed6f7ec5c1692824829e060bd1")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "seturl.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "64ae2cc124b31d38a396a2b29378bafce2aa6bca")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/how_to_open_modiji_url/3") # shareus ka tut_vid he 
