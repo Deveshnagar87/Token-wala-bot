@@ -63,7 +63,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", 'True') == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Here is your link\n\nhttps://t.me/verify_not_bot?start=Z2V0LTE0MzYyMDIxNDQ1ODIxMjQ"
+USER_REPLY_TEXT = "❌ Don't send me messages directly I am a file storing bot created by @anyverselinks"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(5681392434)
